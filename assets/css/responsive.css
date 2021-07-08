@@ -1,0 +1,272 @@
+@media all and (max-width:1499px) {
+    .logo img {
+        width: 95px;
+    }
+    .header_con p {
+        font-size: 19px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p,
+    li {
+        font-size: 18px;
+    }
+    .button_size a {
+        width: 279px;
+        height: 52px;
+        font-size: 20px;
+    }
+    .banner_man_img {
+        position: absolute;
+        bottom: 0%;
+        right: 0;
+        width: 57%;
+        z-index: 1;
+    }
+    .cum_all_content {
+        margin-top: 69px;
+    }
+    .offer_btn.button_size {
+        margin-top: 60px;
+    }
+    .single_principal h2 {
+        font-size: 35px;
+    }
+    .offer_btn1 a::before {
+        left: -37%;
+    }
+    .offer_btn1 a::before {
+        left: -37%;
+    }
+    .offer_btn1 a::after {
+        left: -37%;
+    }
+    .single_principal h2 {
+        font-size: 32px;
+    }
+    .common h2 {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width:1199px) {
+    .header_area_design {
+        top: 33px;
+    }
+    .banner_con h2 br {
+        display: none;
+    }
+    .banner_con h3 {
+        font-size: 21px;
+        margin: 22px 0;
+    }
+    p,
+    li {
+        font-size: 17px;
+    }
+    .banner_area_design {
+        padding-top: 209px;
+    }
+    .header_con p {
+        font-size: 17px;
+    }
+    .dan_left ul li::before {
+        position: absolute;
+        content: "";
+        width: 7px;
+        height: 7px;
+        background: #e43030;
+        border-radius: 50%;
+        left: 0;
+        top: 7px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .banner_con_p p br {
+        display: none;
+    }
+    .button_size a {
+        width: 262px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .banner_man_img {
+        position: relative;
+        bottom: 0%;
+        right: 0;
+        width: 70%;
+        z-index: 1;
+        margin: 0 auto;
+    }
+    .banner_area_design {
+        padding-top: 209px;
+        padding-bottom: 0;
+        background-size: cover !important;
+    }
+    .dan_right {
+        margin-top: 23px;
+    }
+    .single_principal {
+        margin-bottom: 40px;
+    }
+    .principal_area_design .col-lg-6:last-child .single_principal {
+        margin-bottom: 0px;
+    }
+    .tale_all_list_area {
+        display: block;
+    }
+    .single_list {
+        flex: 0 0 48%;
+        max-width: 100%;
+        margin-bottom: 27px;
+    }
+    .single_list ul li span {
+        border-radius: 50%;
+        background-color: rgb(201, 156, 93);
+        max-width: 55px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 14%;
+        margin-right: 10px;
+        font-size: 27px;
+        color: #FFF;
+        font-weight: 900;
+    }
+    .offer_btn1 {
+        margin-top: 76px;
+        padding-left: 119px;
+    }
+    .dan_left3 h3 {
+        color: 0d0d0d;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 1.1;
+    }
+    .flexing {
+        flex-direction: column-reverse;
+    }
+    .single_de {
+        margin-bottom: 35px;
+    }
+    .mar_top1 {
+        margin-top: 0;
+    }
+    .a_chat {
+        margin-bottom: 60px;
+        flex-direction: column-reverse !important;
+    }
+    .caz_content img {
+        margin-bottom: 51px;
+    }
+    .common {
+        margin-top: 38px;
+    }
+    .ll_img {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 97%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width:767px) {
+    p,
+    li {
+        font-size: 15px;
+    }
+    .header_con p {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 29px;
+    }
+    .single_principal h2 {
+        font-size: 29px;
+    }
+    .banner_con h3 {
+        font-size: 17px;
+        margin: 16px 0;
+    }
+    .banner_area_design {
+        padding-top: 171px;
+        padding-bottom: 0;
+        background-size: cover !important;
+    }
+    .immg img {
+        max-width: 60px;
+    }
+    .dan_left3 h3 {
+        font-size: 18px;
+    }
+    .common h2 {
+        font-size: 29px;
+    }
+    .panel-title a {
+        font-size: 17px;
+    }
+    .panel-body ul li {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:575px) {
+    .cum_all_content {
+        margin-top: 29px;
+    }
+    .cum_all_content {
+        display: block;
+    }
+    .single_list ul li span {
+        max-width: 55px;
+        height: 50px;
+    }
+    .caz_content h4 {
+        font-size: 27px;
+    }
+}
+
+@media all and (max-width:450px) {
+    .caz_content h4 {
+        font-size: 22px;
+    }
+    .header_con p {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .single_principal h2 {
+        font-size: 22px;
+    }
+    .section_padding {
+        padding: 50px 0;
+    }
+    .cum_all_content {
+        margin-top: 16px;
+    }
+    .offer_btn1 {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+    .offer_btn1 a:after,
+    .offer_btn1 a:before {
+        display: none;
+    }
+    .tale_all_list_area {
+        padding: 38px 9px;
+    }
+    .single_list ul li span {
+        max-width: 55px;
+        height: 40px;
+        font-size: 20px;
+    }
+}

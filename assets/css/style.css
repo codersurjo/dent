@@ -1,0 +1,937 @@
+/*===============================================
+Default css
+===============================================*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Milliard';
+    background: #FFF;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-BlackItalic.woff2') format('woff2'), url('../font/Milliard-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-Black.woff2') format('woff2'), url('../font/Milliard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard Book';
+    src: url('../font/Milliard-BookItalic.woff2') format('woff2'), url('../font/Milliard-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard Book';
+    src: url('../font/Milliard-Bold.woff2') format('woff2'), url('../font/Milliard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard Book';
+    src: url('../font/Milliard-BoldItalic.woff2') format('woff2'), url('../font/Milliard-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-ExtraBoldItalic.woff2') format('woff2'), url('../font/Milliard-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard Book';
+    src: url('../font/Milliard-Book.woff2') format('woff2'), url('../font/Milliard-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-ExtraLight.woff2') format('woff2'), url('../font/Milliard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-ExtraLightItalic.woff2') format('woff2'), url('../font/Milliard-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-ExtraBold.woff2') format('woff2'), url('../font/Milliard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard Hairline';
+    src: url('../font/Milliard-HairlineItalic.woff2') format('woff2'), url('../font/Milliard-HairlineItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard Hairline';
+    src: url('../font/Milliard-Hairline.woff2') format('woff2'), url('../font/Milliard-Hairline.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-Heavy.woff2') format('woff2'), url('../font/Milliard-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-HeavyItalic.woff2') format('woff2'), url('../font/Milliard-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-MediumItalic.woff2') format('woff2'), url('../font/Milliard-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-LightItalic.woff2') format('woff2'), url('../font/Milliard-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-Light.woff2') format('woff2'), url('../font/Milliard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-SemiBoldItalic.woff2') format('woff2'), url('../font/Milliard-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-Medium.woff2') format('woff2'), url('../font/Milliard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-SemiBold.woff2') format('woff2'), url('../font/Milliard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-ThinItalic.woff2') format('woff2'), url('../font/Milliard-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milliard';
+    src: url('../font/Milliard-Thin.woff2') format('woff2'), url('../font/Milliard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button,
+textarea,
+input {
+    outline: none;
+}
+
+p,
+li {
+    font-size: 21px;
+    color: rgb(13, 13, 13);
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+.section_padding {
+    padding: 70px 0;
+    position: relative;
+}
+
+@media all and (min-width:1500px) {
+    .container {
+        max-width: 1307px !important;
+    }
+}
+
+.button_size {}
+
+.button_size a {
+    width: 313px;
+    height: 58px;
+    background: #e43030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.2s;
+}
+
+.button_size a:hover {
+    opacity: 0.8;
+}
+
+
+/*=================================================================
+				Start Main css
+=================================================================*/
+
+.header_area_design {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.header_all_con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {}
+
+.logo img {
+    width: 130px;
+}
+
+.header_con {}
+
+.header_con p {
+    color: #dfc096;
+    font-weight: 900;
+    line-height: 1.1;
+    font-size: 24px;
+}
+
+
+/* Bannner area design all css  */
+
+.banner_area_design {
+    padding-top: 356px;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.banner_area_design::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.banner_con {
+    position: relative;
+    z-index: 9;
+}
+
+.banner_con h2 {
+    color: #FFF;
+    font-weight: 900;
+}
+
+.banner_con span {
+    color: #d3ae7b;
+}
+
+.banner_con h3 {
+    font-weight: 900;
+    font-size: 26px;
+    margin: 24px 0;
+}
+
+.banner_con_p {}
+
+.banner_con_p p {
+    color: #FFF;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.banner_man_img {
+    position: absolute;
+    bottom: -11%;
+    right: 0;
+    width: 53%;
+    z-index: 1;
+}
+
+.banner_man_img img {
+    width: 100%;
+    height: auto;
+}
+
+.cum_area_design {}
+
+.section_title {
+    text-align: center;
+}
+
+.section_title h2 {
+    text-align: center;
+    color: #0d0d0d;
+    font-weight: 900;
+}
+
+.cum_all_content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.single_cun {
+    text-align: center;
+    margin: 0 4%;
+}
+
+.immg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 117px;
+}
+
+.immg img {}
+
+.single_cun p {
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.offer_btn.button_size {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.offer_btn.button_size a {
+    margin: 0 auto;
+}
+
+.line1 {
+    width: 100%;
+    background-color: rgb(201, 156, 93);
+    height: 1px;
+    overflow: hidden;
+}
+
+
+/* danture_area_design */
+
+.danture_area_design {}
+
+.dan_left {}
+
+.dan_left h2 {
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.dan_left h2 span {
+    color: #c99c5d;
+}
+
+.dan_left ul {
+    margin-top: 25px;
+}
+
+.dan_left ul li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 17px;
+    font-family: 'Milliard Book';
+}
+
+li {
+    font-family: 'Milliard Book';
+}
+
+.dan_left ul li::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #e43030;
+    border-radius: 50px;
+    left: 0;
+    top: 8px;
+}
+
+.dan_right {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.dan_right img {
+    width: 84%;
+    height: auto;
+}
+
+
+/* Principal area design  */
+
+.principal_area_design {
+    background: #0d0d0d;
+    padding: 37px 0;
+}
+
+.single_principal h2 {
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.single_principal ul {
+    border: 3px dashed rgb(201, 156, 93);
+    border-radius: 20px;
+    margin-top: 33px;
+    padding: 17px;
+    min-height: 207px;
+}
+
+.single_principal ul li {
+    color: #FFF;
+    padding-left: 30px;
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.single_principal ul li:last-child {
+    margin-bottom: 0;
+}
+
+.single_principal ul li:before {
+    position: absolute;
+    content: "";
+    background: url(../images/check.png) no-repeat scroll 0 0 / 100% 100%;
+    width: 19px;
+    height: 16px;
+    left: 0;
+    right: 0;
+    top: 4px;
+}
+
+.section_title span {
+    background: rgb(201, 156, 93);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.section_title span p {
+    color: #FFF;
+    font-weight: 500;
+    font-style: italic;
+    line-height: normal;
+}
+
+.tale_area_design {}
+
+.tale_all_list_area {
+    padding: 50px 30px;
+    border-radius: 50px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.single_list {
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+.single_list ul {}
+
+.single_list ul li {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.single_list ul li span {
+    border-radius: 50%;
+    background-color: rgb(201, 156, 93);
+    max-width: 82px;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 20%;
+    margin-right: 10px;
+    font-size: 50px;
+    color: #FFF;
+    font-weight: 900;
+}
+
+.single_list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.offer_btn1 {
+    margin-top: 76px;
+    padding-left: 144px;
+}
+
+.offer_btn1 a {
+    position: relative;
+    z-index: 9999999999999;
+}
+
+.offer_btn1 a::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    border-left: 3px dashed rgb(201, 156, 90);
+    left: -33%;
+    height: 100px;
+    z-index: -1;
+    top: -73px;
+}
+
+.offer_btn1 a::after {
+    position: absolute;
+    content: "";
+    width: 103px;
+    border-top: 3px dashed rgb(201, 156, 90);
+    left: -33%;
+    height: 0px;
+    z-index: -1;
+}
+
+.dan_left2 ul li::before {
+    background: #ca9d5d !important;
+}
+
+.dan_right2 {
+    justify-content: center;
+}
+
+
+/* la_dental_area_design */
+
+.la_dental_area_design {
+    background: #fafafa;
+}
+
+.dan_right3 img {
+    width: 90%;
+}
+
+.dan_left3 ul li {
+    list-style: number;
+}
+
+.dan_left3 ul li {
+    padding-left: 0;
+}
+
+.dan_left3 ul {
+    margin-left: 19px;
+}
+
+.dan_left3 ul li::before {
+    display: none;
+}
+
+.dan_left3 h3 {
+    color: #0d0d0d;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.dan_left3 h3 span {
+    color: #c99c5d;
+}
+
+.dan_left.dan_left2.dan_left3 p {
+    font-family: Milliard Book;
+    margin: 14px 0;
+}
+
+.row.alter_top {
+    margin-top: 81px;
+}
+
+.dan_right.dan_right3 {
+    align-items: flex-start;
+}
+
+.mr_top {
+    margin-top: 70px;
+    position: relative;
+}
+
+.mr_top::before {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 0;
+    border-top: 3px dashed #c99c5d;
+    top: 50%;
+}
+
+.mar_top1 {
+    margin-top: 40px;
+}
+
+article {
+    color: #c99c5d;
+    display: inline-block;
+}
+
+.single_de {
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.14);
+    height: 117px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_de p {
+    font-family: Milliard Book;
+    text-align: center;
+}
+
+.single_principal1 ul {
+    min-height: 361px;
+}
+
+.section_title1 {
+    margin-bottom: 90px;
+}
+
+.section_title1 h2 {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.section_title1 h2:after {
+    position: absolute;
+    content: "";
+    background: url(../images/shap.png) no-repeat scroll 0 0 / 100% 100%;
+    width: 100%;
+    height: 56%;
+    left: 0;
+    top: 33px;
+    z-index: -1;
+}
+
+.cazure_area_design {}
+
+.a_chat {
+    margin-bottom: 60px;
+}
+
+.a_chat:last-child {
+    margin-bottom: 0;
+}
+
+.a_chat:nth-of-type(2n+1) {
+    flex-direction: row-reverse;
+}
+
+.caz_content h4 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.caz_content h4 span {
+    color: #ca9d5d;
+}
+
+.caz_content ul {}
+
+.caz_content ul li {
+    padding-left: 30px;
+    margin-bottom: 17px;
+    position: relative;
+    font-style: italic;
+}
+
+.caz_content ul li:before {
+    position: absolute;
+    content: "";
+    background: url(../images/check.png) no-repeat scroll 0 0 / 100% 100%;
+    width: 19px;
+    height: 16px;
+    left: 0;
+    right: 0;
+    top: 4px;
+}
+
+.caz_content img {
+    width: 100%;
+    height: auto;
+}
+
+.caz_content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.ce_spun_area_design {
+    overflow: hidden;
+}
+
+.section_title2 {
+    margin-bottom: 70px;
+}
+
+.caz_content2 {
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.14);
+    min-height: 310px;
+    padding: 14px 17px;
+}
+
+.caz_content2 h4 {
+    margin-bottom: 20px;
+}
+
+.caz_content2 ul li {
+    padding-left: 0;
+    font-size: 17px;
+}
+
+.caz_content2 ul li::before {
+    display: none;
+}
+
+.margin_btm {
+    margin-bottom: 50px;
+}
+
+.offer_btn2 {
+    margin-top: 39px !important;
+}
+
+
+/* Accordion css  */
+
+.panel-title>a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content: "\f068";
+    padding-right: 0;
+    font-size: 17px;
+    color: #ca9d5d;
+    margin-top: 3px;
+}
+
+.panel-title>a.collapsed:before {
+    float: right !important;
+    content: "\f067";
+}
+
+.panel-title>a:hover,
+.panel-title>a:active,
+.panel-title>a:focus {
+    text-decoration: none;
+}
+
+.faq_area_design {}
+
+.section_title5 {
+    margin-bottom: 50px;
+}
+
+.section_title5 h2 {
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.panel-title a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d0d0d;
+    display: block;
+}
+
+.panel.panel-default {
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.14);
+    padding: 20px;
+    margin-bottom: 29px;
+}
+
+.panel-body ul {
+    margin-top: 20px;
+}
+
+.panel-body ul li {
+    font-size: 19px;
+    color: #0d0d0d;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.panel-body ul li::before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: #cca165;
+    border-radius: 50px;
+    left: 0;
+    top: 7px;
+}
+
+.panel-body ul li:last-child {
+    margin-bottom: 0;
+}
+
+.section_title5 span {
+    color: #ca9d5d;
+}
+
+.despre_medic_area {
+    overflow: hidden;
+}
+
+.medic_man {
+    text-align: right;
+}
+
+.medic_man img {
+    width: 90%;
+    padding-top: 25px;
+}
+
+.common {}
+
+.common h2 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.ll_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ll_img img {
+    width: 96%;
+    height: auto;
+}
+
+
+/* End Accordion css  */
